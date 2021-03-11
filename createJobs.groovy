@@ -6,13 +6,13 @@ pipelineJob('pipelineJob') {
         }
     }
 }
-pipelineJob('theme-park-job') {
+pipelineJob('demo-job') {
     definition {
         cpsScm {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/tkgregory/spring-boot-api-example.git'
+                        url 'https://github.com/TQ36/demo-app.git'
                     }
                     branch 'master'
                 }
